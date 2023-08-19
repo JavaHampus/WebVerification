@@ -1,0 +1,18 @@
+Thanks for purchasing FiveX Verification
+
+1. Visit https://discord.com/developers/applications/
+2. Create a bot, copy Token, Client ID & Client Secret and enter fields in config.json
+3. Click "OAuth2" in the developer portal, locate "Redirects" and enter "http://YOUR_DOMAIN.COM/auth/callback
+4. Change the field in the config.json to the link in step 3.
+5. Fill out all the server fields.
+
+6. Run the following commands:
+npm i discord.js express express-session ejs express-partials body-parser node-fetch@^2.6.6 form-data
+
+7. Run:
+node ./src/deploy.js 
+
+8. Run: 
+node . 
+
+Your application should now be running, if you have any problems add "hampuiz" on Discord

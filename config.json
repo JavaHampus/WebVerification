@@ -1,0 +1,21 @@
+{
+    "CLIENT": 
+    {
+        "CLIENT_ID": "",
+        "CLIENT_TOKEN": "",
+        "CLIENT_SECRET": ""
+    },
+    "SERVER": 
+    {
+        "SERVER_ID": "",
+        "SERVER_EMBED_COLOR": "",
+        "WEB_URL": "https://localhost/",
+        "LOGO": "",
+        "VERIFICATION_ROLE": "",
+        "LOGS_CHANNEL": ""
+    },
+    "AUTH": {
+        "AUTH_REDIRECT": "http://localhost/auth/callback",
+        "SCOPES": ["identify", "guilds"]
+    }
+}
