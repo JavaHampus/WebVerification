@@ -1,10 +1,11 @@
-const { SlashCommandBuilder, CommandInteraction, EmbedBuilder } = require('discord.js');
+const { SlashCommandBuilder, CommandInteraction, EmbedBuilder, PermissionFlagsBits } = require('discord.js');
 const { SERVER } = require('../../../../config.json')
 
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('createpanel')
-		.setDescription('Create the verification dashboard!'),
+		.setDescription('Create the verification dashboard!')
+		.setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
 
 	/**
 	 * @param {CommandInteraction} interaction 
